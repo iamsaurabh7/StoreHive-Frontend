@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Box, Button, Text, Spacer } from "@chakra-ui/react";
+import { Flex, Box, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import "../../src/common.css";
 import { FaShopify } from "react-icons/fa";
@@ -37,54 +37,5 @@ const Navbar = () => {
     </Box>
   );
 };
-
-// {/* Middle - Navigation Links */}
-// <Flex mb={[1, 0]}>
-//   {" "}
-//   {/* Add margin-bottom on mobile */}
-//   <Button as={Link} to="/mens" variant="ghost" mr={2}>
-//     Mens
-//   </Button>
-//   <Button as={Link} to="/womens" variant="ghost" mr={2}>
-//     Womens
-//   </Button>
-//   <Button as={Link} to="/kids" variant="ghost" mr={2}>
-//     Kids
-//   </Button>
-//   <Button as={Link} to="/sports" variant="ghost">
-//     Sports
-//   </Button>
-// </Flex>
-
-// make it very beautiful from scaract using chakra ui
-// left side website name
-// space
-// middle should have mens, womens, kids, sports all buttons/ box equally aligned with little space between them
-// space
-// right side ll have 2 buttons/box login and cart
-// return (
-//   <div className="navbar">
-//     {/* Website name/logo */}
-//     <div className="logo">
-//       <Link to="/">YourWebsiteName</Link>
-//     </div>
-
-//     {/* Navigation links */}
-//     <div className="nav-links">
-//       <Link to="/">Home</Link>
-//       <Link to="/mens">Mens</Link>
-//       <Link to="/womens">Womens</Link>
-//       <Link to="/kids">Kids</Link>
-//       <Link to="/sports">Sports</Link>
-//     </div>
-
-//     {/* Cart and login/logout */}
-//     <div className="cart-login">
-//       <button>Login-Logout</button>
-//       <Link to="/cart">Cart</Link>
-//     </div>
-//   </div>
-// );
-// };
 
 export default Navbar;

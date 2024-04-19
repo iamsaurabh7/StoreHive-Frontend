@@ -37,7 +37,7 @@ function HomeSlider() {
   };
 
   return (
-    <Box w="100%">
+    <Box w="100%" pb={"1.5em"}>
       <Slider {...settings}>
         {images.map((imageUrl, index) => (
           <Box key={index} h={sliderHeight}>
