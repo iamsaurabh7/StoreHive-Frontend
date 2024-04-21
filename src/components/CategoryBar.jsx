@@ -22,7 +22,7 @@ function CategoryBar() {
         marginRight="1em"
         fontSize={["xs", "sm", "md", "md"]}
       >
-        All
+        Home
       </Button>
       <Button
         as={Link}

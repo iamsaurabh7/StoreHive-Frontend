@@ -18,7 +18,7 @@ const Navbar = () => {
             <Flex m={"1em"} align={"center"} ml={""}>
               <FaShopify style={{ fontSize: "170%" }} />
               <Text ml={"8px"} fontWeight="bold" fontSize={"1xl"}>
-                ShopKart
+                StoreHive
               </Text>
             </Flex>
           </Link>
