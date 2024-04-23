@@ -25,7 +25,9 @@ const Navbar = () => {
         </Box>
         <Box>
           <Flex m={"1em"} align={"center"}>
-            <Box mr={["0.5em", "0.5em", "1em", "1em"]}>Signin/Signup</Box>
+            <Link to="/auth">
+              <Box mr={["0.5em", "0.5em", "1em", "1em"]}>Signin/Signup</Box>
+            </Link>
             <Box mr={["0em", "0em", "0.5em", "1em"]}>
               <Link to="/cart">
                 <BsCart4 style={{ fontSize: "170%" }} />
